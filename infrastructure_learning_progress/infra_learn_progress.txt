@@ -1,0 +1,38 @@
+ETL termin
+
+Hadoop
+	
+	MapReduce
+		Purpose
+		How works
+		What vs Spark
+		How helps in IoT
+		Commands (monitor)
+
+		NameNode (failures, reset service)
+		DataNode (add, delete, monitor)
+		
+	
+	Monitoring hadoop - Ambari
+	Yarn
+	Spark
+
+NiFi
+	How works
+	Purpose
+	Kernels
+	Why not Kafka
+
+Sqoop
+
+		
+Parquet, Avro, Orc
+
+Install hadoop
+Experiment put files
+
+
+
+NiFi DataFlow - Transfer from A to B
+Ambari - Provisioning. Ambari enables system administrators to provision, manage and monitor a Hadoop cluster, and also to integrate Hadoop with the existing enterprise infrastructure. 
+Zookeeper - Zookeeper is a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services.
