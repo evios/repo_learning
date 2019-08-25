@@ -1,0 +1,48 @@
+# Fill missing value in corresponding columns with most frequent value in column
+#for col in ('MSZoning','Electrical','KitchenQual','Exterior1st','Exterior2nd','SaleType','Utilities'):
+#    df_all[col].fillna(df_all[col].mode()[0], inplace=True)
+
+
+Agg_AGE
+	Age = CurrentDate - YearBuilt	
+	Age_Remodel= CurrentDate- YearRemodAdd
+	Age_Garage= CurrentDate - GarageYrBlt
+
+
+Agg_AREA
+	TotalSF = GarageArea+TotalBsmtSF	1stFlrSF	2ndFlrSF	-LowQualFinSF
+	Basement = TotalBsmtSF BsmtFinSF1	BsmtQual	BsmtCond -BsmtUnfSF
+
+
+	GrLivArea - int - GrLivArea: Above grade (ground) living area square feet
+
+	Total area
+	BsmtFinSF1	BsmtFinSF2
+	-BsmtUnfSF
+	WoodDeckSF	
+	Porch = OpenPorchSF	EnclosedPorch	3SsnPorch	ScreenPorch
+
+	
+
+
+
+
+Agg_QUALITY
+	Total Qual= OverallQual+ExterCond+ExterQual+KitchenQual+OverallCond+BsmtQual+(HeatingQC)	BsmtCond
+	Categorical Qual = BsmtFinType1+BsmtFinType2	HeatingQC	PoolQC	Fence
+
+	-LowQualFinSF	FireplaceQu	GarageQual	GarageCond	
+
+	House Qual
+
+
+
+Agg_HOUSE
+
+Agg_Basement
+
+Agg_kitchen
+
+
+Agg_GARAGE
+	Garage= GarageArea	GarageYrBlt	GarageQual	GarageCond	GarageCars
